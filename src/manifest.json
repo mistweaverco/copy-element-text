@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Element Text",
+  "version": "1.0.0",
+  "description": "Copies the text inside elements",
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/icon-32.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "boot.js"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "copy-element-text",
+  "version": "3.0.0",
+  "description": "Lets you copy a element's text to the clipboard via the context menu.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "zip": "cd src/ && bestzip ../chrome.zip *",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:superevilmegaco/copy-element-text.git"
+  },
+  "author": "Marco Kellershoff <marco@kellershoff.net>",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bestzip": "^2.1.7",
+    "eslint": "^7.20.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "npm-run-all": "^4.1.5"
+  }
+}

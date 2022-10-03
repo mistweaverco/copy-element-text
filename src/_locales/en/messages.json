@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "Copy Element Text",
+    "description": ""
+  },
+
+  "extensionDescription": {
+    "message": "Copies the text inside elements",
+    "description": ""
+  },
+
+  "menuItemCopyElementText": {
+    "message": "Copy element text",
+    "description": ""
+  }
+}
