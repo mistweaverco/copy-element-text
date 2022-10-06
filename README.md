@@ -9,5 +9,5 @@ You can install it via the [Google Chrome Webstore][google_webstore_link].
 
 
 
-[google_webstore_link]: https://chrome.google.com/webstore/detail/copy-element-text/loeniidbmeohdlmipbpkfmiogbcncibh?hl=en
+[google_webstore_link]: https://chrome.google.com/webstore/detail/copy-element-text/lejdjhmnhlhjhfmcalaimioiogkibdea?hl=en
 
